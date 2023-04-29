@@ -1,12 +1,22 @@
 @font-face {
-    font-family: "TTLakes";
+    font-family: "Medium";
     src: url(./fonts/TTLakes-Medium.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(./fonts/TTLakes-Regular.woff) format("woff");
 }
 
 * {
     border: 0;
     margin: 0;
     padding: 0;
+}
+body {
+    font-family: "Regular";
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .nobullet {
@@ -21,6 +31,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 57px;
 }
 
 .burger {
@@ -36,4 +47,75 @@
 .group {
     padding-top: 19px;
     padding-left: 17px;
+}
+
+.menu_list {
+    display: inline;
+}
+
+.menu_list-item {
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+.menu_list-item a {
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.highlight {
+    position: absolute;
+    top: 123px;
+}
+
+.menu_list-item a:focus {
+    color:#7E7E82;
+}
+
+.call {
+    padding-right: 16px;    
+}
+
+.chat {
+    padding-right: 16px;
+}
+
+.contact {
+    padding-top: 268px;
+    padding-left: 24px;
+}
+
+.mail {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.number {
+    font-family: "Medium";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.lang {
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+button:focus {
+    background-color: transparent;
+    color:#7E7E82;
+}
+
+.container {
+    box-shadow: 15px 10px 50px 2px rgba(0, 0, 0, 0.2);
 }
