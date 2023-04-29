@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "TTLakes";
+    src: url(./fonts/TTLakes-Medium.woff) format("woff");
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.nobullet {
+    list-style-type: none;
+    display: flex;
+}
+
+.container {
+    width: 320px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    padding-top: 23px;
+    padding-left: 24px;
+}
+
+.header__right {
+    padding-top: 23px;
+    padding-right: 24px;
+}
+
+.group {
+    padding-top: 19px;
+    padding-left: 17px;
+}
