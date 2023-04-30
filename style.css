@@ -31,7 +31,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 57px;
+    margin-bottom: 57px;
 }
 
 .burger {
@@ -39,7 +39,7 @@ body {
     padding-left: 24px;
 }
 
-.header__right {
+.header-right {
     padding-top: 23px;
     padding-right: 24px;
 }
@@ -49,16 +49,16 @@ body {
     padding-left: 17px;
 }
 
-.menu_list {
+.menu-list {
     display: inline;
 }
 
-.menu_list-item {
+.menu-list_item {
     padding-left: 24px;
     padding-bottom: 32px;
 }
 
-.menu_list-item a {
+.menu-list_item a {
     text-decoration: none;
     color: #1B1C21;
 }
@@ -68,7 +68,7 @@ body {
     top: 123px;
 }
 
-.menu_list-item a:focus {
+.menu-list_item a:focus {
     color:#7E7E82;
 }
 
