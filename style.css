@@ -31,22 +31,26 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 57px;
+    
 }
 
 .burger {
-    padding-top: 23px;
-    padding-left: 24px;
+    margin-top: 23px;
+    margin-left: 24px;
 }
 
 .header-right {
-    padding-top: 23px;
-    padding-right: 24px;
+    margin-top: 23px;
+    margin-right: 24px;
 }
 
-.group {
-    padding-top: 19px;
-    padding-left: 17px;
+.logo {
+    margin-top: 19px;
+    margin-left: 17px;
+}
+
+#repair {
+    margin-top: 57px;
 }
 
 .menu-list {
@@ -54,8 +58,8 @@ body {
 }
 
 .menu-list_item {
-    padding-left: 24px;
-    padding-bottom: 32px;
+    margin-left: 24px;
+    margin-top: 32px;
 }
 
 .menu-list_item a {
@@ -73,32 +77,32 @@ body {
 }
 
 .call {
-    padding-right: 16px;    
+    margin-right: 16px;    
 }
 
 .chat {
-    padding-right: 16px;
+    margin-right: 16px;
 }
 
 .contact {
-    padding-top: 268px;
-    padding-left: 24px;
+    margin-top: 268px;
+    margin-left: 24px;
 }
 
 .mail {
-    padding-top: 16px;
-    padding-bottom: 24px;
+    margin-top: 16px;
 }
 
 .number {
     font-family: "Medium";
     font-size: 24px;
     font-weight: 700;
+    margin-top: 24px;
 }
 
 .lang {
-    padding-top: 40px;
-    padding-left: 24px;
+    margin-top: 40px;
+    margin-left: 24px;
     padding-bottom: 32px;
 }
 
