@@ -102,6 +102,13 @@ body {
     margin-left: 24px;
 }
 
+.connection a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1B1C21;
+    ;
+
+}
 .mail {
     margin-top: 16px;
 }
