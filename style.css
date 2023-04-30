@@ -67,13 +67,14 @@ body {
     color: #1B1C21;
 }
 
-.highlight {
-    position: absolute;
-    top: 123px;
-}
-
 .menu-list_item a:focus {
     color:#7E7E82;
+}
+
+.menu-list_item a:focus::before {
+    content: url(./img/ic/highlight.png);
+    position: absolute;
+    left: 0;
 }
 
 .call {
