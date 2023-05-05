@@ -133,6 +133,7 @@ button {
     color: inherit;
     background-color: transparent;
     cursor: pointer;
+    transition-duration: 0.2s;
   }
 
 button:focus {
@@ -143,6 +144,7 @@ button:focus {
 
 button:hover {
     transform: scale(0.9);
+    transition-duration: 0.5s;
 }
 
 .container {
