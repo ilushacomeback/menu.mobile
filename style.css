@@ -66,16 +66,36 @@ body {
 .menu-list_item a {
     text-decoration: none;
     color: #1B1C21;
+    position: relative;
+}
+
+.menu-list_item a:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; 
+    background-color: #41F6D7; 
+    transition: width 0.5s;
+}
+
+.menu-list_item a:focus:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; 
+    background-color: #41F6D7; 
+    transition: width 0.5s;
+    
 }
 
 .menu-list_item a:focus {
     color:#7E7E82;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
-    border: 2px solid #B8FFEC;
-    transition: all 0.2s ease-in-out;
 }
 
 .menu-list_item a:focus::before {
@@ -85,7 +105,7 @@ body {
     background-color: #41F6D7;
     border-radius: 0 5px 5px 0;
     position: absolute;
-    left: 0;
+    left: -24px;
     top: -30%;
 }
 
