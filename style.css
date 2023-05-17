@@ -1,172 +1,169 @@
 @font-face {
-    font-family: "Medium";
-    src: url(./fonts/TTLakes-Medium.woff) format("woff");
+  font-family: "Medium";
+  src: url(./fonts/TTLakes-Medium.woff) format("woff");
 }
 
 @font-face {
-    font-family: "Regular";
-    src: url(./fonts/TTLakes-Regular.woff) format("woff");
+  font-family: "Regular";
+  src: url(./fonts/TTLakes-Regular.woff) format("woff");
 }
 
 * {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-family: "Regular";
-    font-size: 16px;
-    font-weight: 600;
+  box-sizing: border-box;
+  font-family: "Regular";
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .nobullet {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 .container {
-    width: 320px;
+  width: 320px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
 }
 
 .burger {
-    margin-top: 23px;
-    margin-left: 24px;
+  margin-top: 23px;
+  margin-left: 24px;
 }
 
 .header-right {
-    margin-top: 23px;
-    margin-right: 24px;
+  margin-top: 23px;
+  margin-right: 24px;
 }
 
 .logo {
-    margin-top: 19px;
-    margin-left: 17px;
+  margin-top: 19px;
+  margin-left: 17px;
 }
 
 #repair {
-    margin-top: 57px;
+  margin-top: 57px;
 }
 
 .menu-list {
-    display: inline;
+  display: inline;
 }
 
 .menu-list_item {
-    padding-left: 24px;
-    margin-top: 32px;
-    position: relative;
+  padding-left: 24px;
+  margin-top: 32px;
+  position: relative;
 }
 
 .menu-list_item a {
-    text-decoration: none;
-    color: #1B1C21;
-    position: relative;
+  text-decoration: none;
+  color: #1b1c21;
+  position: relative;
 }
 
 .menu-list_item a:after {
-	content: "";
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: -3px;
-    width: 0;
-    height: 2px; 
-    background-color: #41F6D7; 
-    transition: width 0.5s;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #41f6d7;
+  transition: width 0.5s;
 }
 
 .menu-list_item a:focus:after {
-	content: "";
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 2px; 
-    background-color: #41F6D7; 
-    transition: width 0.5s;
-    
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: #41f6d7;
+  transition: width 0.5s;
 }
 
 .menu-list_item a:focus {
-    color:#7E7E82;
+  color: #7e7e82;
 }
 
 .menu-list_item a:focus::before {
-    content: '';
-    width: 4px;
-    height: 32px;
-    background-color: #41F6D7;
-    border-radius: 0 5px 5px 0;
-    position: absolute;
-    left: -24px;
-    top: -30%;
+  content: "";
+  width: 4px;
+  height: 32px;
+  background-color: #41f6d7;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  left: -24px;
+  top: -30%;
 }
 
 .call {
-    margin-right: 16px;    
+  margin-right: 16px;
 }
 
 .chat {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .contact {
-    margin-top: 268px;
-    margin-left: 24px;
+  margin-top: 268px;
+  margin-left: 24px;
 }
 
 .connection a {
-    display: inline-block;
-    text-decoration: none;
-    color: #1B1C21;
-    ;
-
+  display: inline-block;
+  text-decoration: none;
+  color: #1b1c21;
 }
 .mail {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .number {
-    font-family: "Medium";
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 24px;
+  font-family: "Medium";
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 24px;
 }
 
 .lang {
-    margin-top: 40px;
-    margin-left: 24px;
-    padding-bottom: 32px;
+  margin-top: 40px;
+  margin-left: 24px;
+  padding-bottom: 32px;
 }
 
 button {
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
-    cursor: pointer;
-    transition-duration: 0.2s;
-  }
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
 
 button:focus {
-    outline: none;
-    background-color: transparent;
-    color:#7E7E82;
+  outline: none;
+  background-color: transparent;
+  color: #7e7e82;
 }
 
 button:hover {
-    transform: scale(0.9);
-    transition-duration: 0.5s;
+  transform: scale(0.9);
+  transition-duration: 0.5s;
 }
 
 .container {
-    box-shadow: 15px 10px 50px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 15px 10px 50px 2px rgba(0, 0, 0, 0.2);
 }
